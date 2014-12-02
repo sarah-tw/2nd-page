@@ -74,7 +74,7 @@ header {
 		color: white;
 	}
 	.logo {
-		margin: 5%;
+		margin: 22px 12px;
 	}
 
 	nav {
@@ -85,7 +85,7 @@ header {
 			display: inline-block;
 			border-radius: 20px;
 			width: 18px;
-			padding: 10px;
+			padding: 12px 10px;
 			border: 1px solid $gray;	
 			margin: 0 10px;		
 		}
@@ -188,6 +188,9 @@ aside {
 			overflow: hidden;
 			&.active {
 				border-bottom: 5px solid $twitter;	
+			}
+			&:hover {
+				border-bottom: 5px solid blue;
 			}
 		}
 	}

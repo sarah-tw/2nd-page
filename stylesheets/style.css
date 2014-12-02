@@ -266,7 +266,7 @@ header .icon-quill {
 }
 /* line 76, ../sass/style.scss */
 header .logo {
-  margin: 5%;
+  margin: 22px 12px;
 }
 /* line 80, ../sass/style.scss */
 header nav {
@@ -279,7 +279,7 @@ header nav i {
   display: inline-block;
   border-radius: 20px;
   width: 18px;
-  padding: 10px;
+  padding: 12px 10px;
   border: 1px solid #ccc;
   margin: 0 10px;
 }
@@ -413,13 +413,17 @@ aside {
 .main-part header ul li.active {
   border-bottom: 5px solid #7ea0bf;
 }
-/* line 194, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
+.main-part header ul li:hover {
+  border-bottom: 5px solid blue;
+}
+/* line 197, ../sass/style.scss */
 .main-part article {
   padding: 20px;
   position: relative;
   border-bottom: 1px solid #ccc;
 }
-/* line 198, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 .main-part article .avator {
   display: inline-block;
   width: 30px;
@@ -428,64 +432,64 @@ aside {
   position: absolute;
   left: 20px;
 }
-/* line 203, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 .main-part article .each-content {
   margin-left: 40px;
 }
-/* line 205, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 .main-part article .each-content p {
   margin: 0.6em 0;
 }
-/* line 209, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .main-part article .name {
   font-weight: bold;
 }
-/* line 212, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 .main-part article .account, .main-part article .date {
   color: #666;
 }
-/* line 215, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .main-part article .icons i {
   color: #999;
   margin: 0 0.5em;
 }
 
-/* line 221, ../sass/style.scss */
+/* line 224, ../sass/style.scss */
 .laside {
   height: 762px;
 }
 
-/* line 224, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .raside {
   height: 762px;
   background-color: white;
 }
 
-/* line 228, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .trends {
   padding: 20px;
 }
-/* line 230, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .trends h3 {
   margin-bottom: 0.8em;
 }
-/* line 233, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .trends li a {
   line-height: 1.4em;
   text-decoration: none;
 }
 
-/* line 238, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .following {
   padding: 20px;
 }
-/* line 240, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .following ul li {
   position: relative;
   padding-left: 40px;
   margin: 10px 0;
 }
-/* line 244, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 .following ul li img.avator {
   display: inline-block;
   width: 30px;
@@ -494,7 +498,7 @@ aside {
   position: absolute;
   left: 0px;
 }
-/* line 249, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 .following ul li i {
   float: right;
   font-size: 0.4em;
@@ -503,7 +507,7 @@ aside {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-/* line 257, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 .following ul li .title {
   color: #999;
 }
